@@ -1,0 +1,39 @@
+
+body {
+	background-color: #ccdd5f;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	
+	width: 30%;
+	height: 60vh;
+	background: url(images/Chuck-Norris-Transparent-Background.png) no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-top: 50px;
+	position: relative;
+	}
+
+button {
+	padding:10px;
+	border:10px solid lightgreen;
+	background-color: green;	
+	margin-top: -50px;
+	position: absolute;
+	
+}
+#joke {
+	
+	padding: 50px;
+	margin: 150px 60px 20px;
+	background-color: white;
+	border: 10px solid lightgreen;
+	border-radius: 10px;
+	height: 40%;
+	font-size: 25px;
+	
+}
+
